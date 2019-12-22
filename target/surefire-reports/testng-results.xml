@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34191" started-at="2019-09-04T15:39:04Z" finished-at="2019-09-04T15:39:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34191" started-at="2019-09-04T15:39:04Z" finished-at="2019-09-04T15:39:38Z">
+      <class name="com.eproc.qa.testcases.NewSupplierAddTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="setUp" is-config="true" duration-ms="6503" started-at="2019-09-04T15:39:23Z" finished-at="2019-09-04T15:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewSupplier(java.lang.String, java.lang.String)[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="validateNewSupplier" duration-ms="544" started-at="2019-09-04T15:39:29Z" data-provider="getEPROCTestData" finished-at="2019-09-04T15:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SachinSupp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sachin Grains Pvt Ltd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewSupplier -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-09-04T15:39:30Z" finished-at="2019-09-04T15:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="setUp" is-config="true" duration-ms="6523" started-at="2019-09-04T15:39:30Z" finished-at="2019-09-04T15:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewSupplier(java.lang.String, java.lang.String)[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="validateNewSupplier" duration-ms="659" started-at="2019-09-04T15:39:37Z" data-provider="getEPROCTestData" finished-at="2019-09-04T15:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SandySupp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sandy Shoes Pvt Ltd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewSupplier -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eproc.qa.testcases.NewSupplierAddTest@1f792cf]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-09-04T15:39:38Z" finished-at="2019-09-04T15:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eproc.qa.testcases.NewSupplierAddTest -->
+      <class name="com.eproc.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eproc.qa.testcases.HomePageTest@12fad11]" name="setUp" is-config="true" duration-ms="7602" started-at="2019-09-04T15:39:04Z" finished-at="2019-09-04T15:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySuppliersLinkTest()[pri:0, instance:com.eproc.qa.testcases.HomePageTest@12fad11]" name="verifySuppliersLinkTest" duration-ms="272" started-at="2019-09-04T15:39:12Z" finished-at="2019-09-04T15:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuppliersLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eproc.qa.testcases.HomePageTest@12fad11]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-09-04T15:39:12Z" finished-at="2019-09-04T15:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eproc.qa.testcases.HomePageTest -->
+      <class name="com.eproc.qa.testcases.SuppliersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eproc.qa.testcases.SuppliersPageTest@1698539]" name="setUp" is-config="true" duration-ms="7814" started-at="2019-09-04T15:39:12Z" finished-at="2019-09-04T15:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddNewSupplier()[pri:0, instance:com.eproc.qa.testcases.SuppliersPageTest@1698539]" name="verifyAddNewSupplier" duration-ms="287" started-at="2019-09-04T15:39:20Z" finished-at="2019-09-04T15:39:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddNewSupplier -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eproc.qa.testcases.SuppliersPageTest@1698539]" name="tearDown" is-config="true" duration-ms="759" started-at="2019-09-04T15:39:20Z" finished-at="2019-09-04T15:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eproc.qa.testcases.SuppliersPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
